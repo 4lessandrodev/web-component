@@ -1,7 +1,7 @@
 import Component from './index';
 import { screen, render } from '@testing-library/react';
 
-describe('__TEMPLATE__FILE__NAME__', () => {
+describe('Title', () => {
 
 	it('should render small with success', async () => {
 		const component = render(<Component size="SMALL" value="Small Title"/>);

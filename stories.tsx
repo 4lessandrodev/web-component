@@ -13,7 +13,7 @@ export default {
     },
 } as ComponentMeta<typeof TitleComponent>;
 
-const Template: ComponentStory<any> = (args) => <TitleComponent {...args} />;
+const Template: ComponentStory<any> = (args: any) => <TitleComponent {...args} />;
 
 export const Title = Template.bind({});
 
