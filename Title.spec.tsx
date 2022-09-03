@@ -1,3 +1,4 @@
+import React from 'react';
 import Component from './index';
 import { screen, render } from '@testing-library/react';
 
