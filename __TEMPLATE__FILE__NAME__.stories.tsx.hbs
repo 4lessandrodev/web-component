@@ -1,0 +1,23 @@
+
+import React from 'react';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
+
+import {{__TEMPLATE__CLASS__NAME__}}Component from './index';
+
+export default {
+    title: '{{__TEMPLATE__CLASS__NAME__}}',
+    component: {{__TEMPLATE__CLASS__NAME__}}Component,
+    size: {
+        control: { type: 'select' },
+        options: ['SMALL', 'MEDIUM', 'LARGE'],
+    },
+} as ComponentMeta<typeof TitleComponent>;
+
+const Template: ComponentStory<any> = (args: any) => <{{__TEMPLATE__CLASS__NAME__}}Component {...args} />;
+
+export const {{__TEMPLATE__CLASS__NAME__}} = Template.bind({});
+
+{{__TEMPLATE__CLASS__NAME__}}.args = {
+    value: 'Medium Title',
+    size: 'MEDIUM',
+};
